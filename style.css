@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222;
+    text-align: center;
+}
+
+.container h1{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.container span{
+    color: darkorange;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.controle{
+    margin-top: 4rem;
+}
+
+.controle button{
+    background: none;
+    border: 3px solid red;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    padding: 10px 30px;
+}
+
+.controle button:hover{
+    border: 3px solid blue;
+}
